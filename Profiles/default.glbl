@@ -19,4 +19,9 @@
       <initValue>'admin'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>1</description>
+      <initValue>'1'</initValue>
+      <name>wd</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
