@@ -19,9 +19,9 @@ WebUI.setViewPortSize(1920, 1080)
 
 WebUI.click(findTestObject('StartPage/Page_Laravel/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/LoginPage/Page_Laravel/input_Welcome Back_login'), GlobalVariable.Username)
+WebUI.setText(findTestObject('Object Repository/LoginPage/Page_Laravel/input_Welcome Back_login'), Username)
 
-WebUI.setText(findTestObject('Object Repository/LoginPage/Page_Laravel/input_Welcome Back_password'), GlobalVariable.Password)
+WebUI.setText(findTestObject('Object Repository/LoginPage/Page_Laravel/input_Welcome Back_password'), Password)
 
 //checkbox
 WebUI.check(findTestObject('LoginPage/Page_Laravel/label_Remember Me'))

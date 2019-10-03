@@ -13,14 +13,35 @@
    <testCaseLink>
       <guid>0893101c-ddc6-44bf-8b04-c643a0c62659</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/StartPage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6d5ac86b-1099-49a7-b87a-c726a9d4a2ba</guid>
+      <guid>2f01a2f2-6a4e-4001-98cf-b75dd2d2bbe8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/LoginAdmin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d34cd97c-67d7-4ee3-ab64-c9ddee5230fe</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/for AdminLogin</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d34cd97c-67d7-4ee3-ab64-c9ddee5230fe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>591f86f6-936d-4bf8-9e75-b28145e5e2d3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d34cd97c-67d7-4ee3-ab64-c9ddee5230fe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>cd349411-855f-47b2-829f-910b2042e3a7</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>63c1fe5e-094f-4720-9cfb-f98c530eae77</guid>

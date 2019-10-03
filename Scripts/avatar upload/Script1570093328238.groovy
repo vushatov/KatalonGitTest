@@ -25,16 +25,20 @@ WebUI.click(findTestObject('AvatarUpload/Page_Laravel/rightAvatarIcon'))
 WebUI.click(findTestObject('AvatarUpload/Page_Laravel/ProfileButton'))
 
 WebUI.click(findTestObject('AvatarUpload/Page_Laravel/EditIconForAvatar'))
-WebUI.click(findTestObject('AvatarUpload/Page_Laravel/input_Upload Avatar_cr-slider'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('AvatarUpload/Page_Laravel/input_Upload Avatar_cr-slider', [('aria-valuenow') : '1.2328']))
 
 WebUI.delay(1)
 
 CustomKeywords.'test.testclass.uploadFile'(findTestObject('AvatarUpload/Page_Laravel/label_Upload photo'), 'D:\\1b.jpg')
 
-new_btn = WebUI.modifyObjectProperty(findTestObject('AvatarUpload/Page_Laravel/input_Upload Avatar_cr-slider'), 'xpath', 'equals', '//*[@aria-valuenow=\"1.5\"]', false)
+new_btn = WebUI.modifyObjectProperty(findTestObject('AvatarUpload/Page_Laravel/input_Upload Avatar_cr-slider'), 'xpath', 
+    'equals', '//*[@aria-valuenow="1.5"]', false)
+
 WebUI.click(new_btn)
 
 //WebUI.clickOffset(findTestObject('AvatarUpload/Page_Laravel/input_Upload Avatar_cr-slider'), 10, 0)
-
 WebUI.acceptAlert()
 
