@@ -5,7 +5,7 @@
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>8f53d0be-8d00-4fae-9d9a-2608a5f7d60e</dataFileGUID>
+   <dataFileGUID>2f705de0-870b-4957-8521-ccd59eab17a8</dataFileGUID>
    <dataSourceUrl>../../OneDrive/Рабочий стол/Лист Microsoft Excel.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
