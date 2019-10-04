@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('LoginAdmin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Create User/Page_Laravel/a_Users'))
+WebUI.click(findTestObject('Object Repository/Create User/Page_Laravel/a_Users'), FailureHandling.CONTINUE_ON_FAILURE)
 
 while (WebUI.verifyElementPresent(findTestObject('Object Repository/Create User/Page_Laravel/delete_User_button'), 1) == 
 true) {
@@ -26,5 +26,5 @@ true) {
     WebUI.acceptAlert()
 }
 
-System.out.println('All user are removed!');
+System.out.println('All user are removed!')
 
