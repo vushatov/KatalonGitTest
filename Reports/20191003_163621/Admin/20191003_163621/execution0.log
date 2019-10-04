@@ -1783,9 +1783,8 @@
   <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
   <nestedLevel>1</nestedLevel>
 </record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2019-10-03T17:23:08</date>
   <millis>1570112588485</millis>
@@ -1852,3 +1851,4 @@
   <message>Reading excel file with source file &amp;apos;C:\\Users\\vladi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0438\u0441\u0442 Microsoft Excel.xlsx&amp;apos; and sheet name &amp;apos;\u041B\u0438\u0441\u04421&amp;apos;</message>
   <nestedLevel>0</nestedLevel>
 </record>
+</log>
