@@ -13,16 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebDriver as WebDriver
-WebDriver driver = DriverFactory.getWebDriver()
+
 
 WebUI.openBrowser('https://www.edukasyon.ph/school/search?utf8=%E2%9C%93&q=Manila')
 
 WebUI.maximizeWindow()
 
-WebElement slider = findTestObject('SLIDER/Page_Best schools in the Philippines  Edukasyonph/slider')
+//WebElement slider = driver.findElement(By.xpath('//div[@id=\'filter-container\']/div/div/div/div/div[2]'))
 
-slider.sendKeys(Keys.ARROW_RIGHT)
+//slider.sendKeys(Keys.ARROW_RIGHT)
 
 WebUI.sendKeys(findTestObject('SLIDER/Page_Best schools in the Philippines  Edukasyonph/slider'), Keys.chord(Keys.ARROW_RIGHT))
 
