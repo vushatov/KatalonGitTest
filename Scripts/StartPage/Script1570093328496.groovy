@@ -43,3 +43,5 @@ WebUI.setViewPortSize(1920, 1080)
 
 WebUI.click(findTestObject('StartPage/Page_Laravel/a_Login'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.closeBrowser()
+

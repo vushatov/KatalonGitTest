@@ -12,25 +12,17 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebDriver as WebDriver
+WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.openBrowser(GlobalVariable.URL)
+WebUI.openBrowser('https://www.edukasyon.ph/school/search?utf8=%E2%9C%93&q=Manila')
 
-WebUI.setViewPortSize(1920, 1080)
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('StartPage/Page_Laravel/a_Login'))
+WebElement slider = findTestObject('SLIDER/Page_Best schools in the Philippines  Edukasyonph/slider')
 
-WebUI.setText(findTestObject('Object Repository/LoginPage/Page_Laravel/input_Welcome Back_login'), Username)
+slider.sendKeys(Keys.ARROW_RIGHT)
 
+WebUI.sendKeys(findTestObject('SLIDER/Page_Best schools in the Philippines  Edukasyonph/slider'), Keys.chord(Keys.ARROW_RIGHT))
 
-WebUI.setText(findTestObject('Object Repository/LoginPage/Page_Laravel/input_Welcome Back_password'), Password)
-
-
-WebUI.check(findTestObject('LoginPage/Page_Laravel/label_Remember Me'))
-
-WebUI.uncheck(findTestObject('LoginPage/Page_Laravel/label_Remember Me'))
-
-WebUI.verifyElementNotChecked(findTestObject('LoginPage/Page_Laravel/label_Remember Me'), 1)
-
-WebUI.click(findTestObject('Object Repository/LoginPage/Page_Laravel/button_Login'))
-
-//WebUI.verifyElementPresent(findTestObject('Object Repository/DashboardPage/Page_Laravel/button_Banned IPs_sidebarToggle'), 0)

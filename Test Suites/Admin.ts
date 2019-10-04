@@ -23,7 +23,7 @@
       <testCaseId>Test Cases/LoginAdmin</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>8c52a29f-5a8f-41b7-b385-33693f247937</id>
+         <id>96408ed6-f3f9-4d20-b5c9-559733688829</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -31,13 +31,13 @@
          <testDataId>Data Files/for AdminLogin</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>8c52a29f-5a8f-41b7-b385-33693f247937</testDataLinkId>
+         <testDataLinkId>96408ed6-f3f9-4d20-b5c9-559733688829</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Username</value>
          <variableId>591f86f6-936d-4bf8-9e75-b28145e5e2d3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8c52a29f-5a8f-41b7-b385-33693f247937</testDataLinkId>
+         <testDataLinkId>96408ed6-f3f9-4d20-b5c9-559733688829</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>cd349411-855f-47b2-829f-910b2042e3a7</variableId>
