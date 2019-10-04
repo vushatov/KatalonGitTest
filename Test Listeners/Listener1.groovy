@@ -24,40 +24,39 @@ import com.kms.katalon.core.context.TestSuiteContext
 
 class Listener1 {
 	/**
-	 * Executes before every test case starts.
-	 * @param testCaseContext related information of the executed test case.
-	 */
-	@BeforeTestCase
-	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseVariables()
-	}
+ * Executes before every test case starts.
+ * @param testCaseContext related information of the executed test case.
+ */
 
-	/**
-	 * Executes after every test case ends.
-	 * @param testCaseContext related information of the executed test case.
-	 */
-	@AfterTestCase
-	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseStatus()
-	}
+@BeforeTestCase
+def onTestCaseStart(){
+	println("I am inside onTestCaseStart function")
+}
 
-	/**
-	 * Executes before every test suite starts.
-	 * @param testSuiteContext: related information of the executed test suite.
-	 */
+/**
+ * Executes after every test case ends.
+ * @param testCaseContext related information of the executed test case.
+ */
+@AfterTestCase
+def sampleAfterTestCase(TestCaseContext testCaseContext) {
+	println("I am inside sampleAfterTestCase function")
+}
+
+/**
+ * Executes before every test suite starts.
+ * @param testSuiteContext: related information of the executed test suite.
+ */
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()
-	}
+println("I am inside sampleBeforeTestSuite function")
+}
 
-	/**
-	 * Executes after every test suite ends.
-	 * @param testSuiteContext: related information of the executed test suite.
-	 */
+/**
+ * Executes after every test suite ends.
+ * @param testSuiteContext: related information of the executed test suite.
+ */
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()
+println("I am inside sampleAfterTestSuite function")
 	}
 }
