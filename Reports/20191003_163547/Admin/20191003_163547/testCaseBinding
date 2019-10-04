@@ -1,2 +1,0 @@
-{"testCaseName":"Test Cases/LoginAdmin - Iteration 1","testCaseId":"Test Cases/LoginAdmin","bindedValues":{"Username":"\u0027Admin\u0027","Password":"\u0027admin\u0027"}}
-{"testCaseName":"Test Cases/LoginAdmin - Iteration 2","testCaseId":"Test Cases/LoginAdmin","bindedValues":{"Username":"\u0027Admin@admin.com\u0027","Password":"\u0027admin\u0027"}}
