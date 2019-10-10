@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin,Firefox 69.0,,,2019-10-09 18:19:28,2019-10-09 18:19:56,"28,354s",INCOMPLETE
+,,,,,,,
+Test Cases/StartPage,Firefox 69.0,,,2019-10-09 18:19:28,2019-10-09 18:19:35,"7,429s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/"")",Firefox 69.0,,,2019-10-09 18:19:28,2019-10-09 18:19:33,"4,596s",PASSED
+"setViewPortSize(1920, 1080)",Firefox 69.0,,,2019-10-09 18:19:33,2019-10-09 18:19:33,"0,115s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/Page_Laravel/h1_RealDigitalSolutions""), 0)",Firefox 69.0,,,2019-10-09 18:19:33,2019-10-09 18:19:33,"0,138s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/Page_Laravel/img""), 0)",Firefox 69.0,,,2019-10-09 18:19:33,2019-10-09 18:19:33,"0,053s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/Page_Laravel/svg_Login_logo-word""), 0)",Firefox 69.0,,,2019-10-09 18:19:33,2019-10-09 18:19:33,"0,051s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/Page_Laravel/ul_Auszeichnung Landespreis""), 0)",Firefox 69.0,,,2019-10-09 18:19:33,2019-10-09 18:19:33,"0,056s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/Page_Laravel/a_Login""), 0)",Firefox 69.0,,,2019-10-09 18:19:33,2019-10-09 18:19:33,"0,064s",PASSED
+"setViewPortSize(1024, 750)",Firefox 69.0,,,2019-10-09 18:19:33,2019-10-09 18:19:33,"0,096s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/Page_Laravel/h1_RealDigitalSolutions""), 0)",Firefox 69.0,,,2019-10-09 18:19:33,2019-10-09 18:19:33,"0,068s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/Page_Laravel/img""), 0)",Firefox 69.0,,,2019-10-09 18:19:33,2019-10-09 18:19:33,"0,059s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/Page_Laravel/svg_Login_logo-word""), 0)",Firefox 69.0,,,2019-10-09 18:19:33,2019-10-09 18:19:33,"0,043s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/Page_Laravel/ul_Auszeichnung Landespreis""), 0)",Firefox 69.0,,,2019-10-09 18:19:33,2019-10-09 18:19:33,"0,054s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/Page_Laravel/a_Login""), 0)",Firefox 69.0,,,2019-10-09 18:19:33,2019-10-09 18:19:33,"0,050s",PASSED
+"setViewPortSize(1920, 1080)",Firefox 69.0,,,2019-10-09 18:19:33,2019-10-09 18:19:34,"0,065s",PASSED
+"click(findTestObject(""StartPage/Page_Laravel/a_Login""), STOP_ON_FAILURE)",Firefox 69.0,,,2019-10-09 18:19:34,2019-10-09 18:19:34,"0,649s",PASSED
+closeBrowser(),Firefox 69.0,,,2019-10-09 18:19:34,2019-10-09 18:19:35,"1,039s",PASSED
+,,,,,,,
+Test Cases/LoginAdmin,Firefox 69.0,,,2019-10-09 18:19:35,2019-10-09 18:19:41,"5,757s",PASSED
+openBrowser(URL),Firefox 69.0,,,2019-10-09 18:19:35,2019-10-09 18:19:39,"3,507s",PASSED
+"setViewPortSize(1920, 1080)",Firefox 69.0,,,2019-10-09 18:19:39,2019-10-09 18:19:39,"0,076s",PASSED
+"click(findTestObject(""StartPage/Page_Laravel/a_Login""))",Firefox 69.0,,,2019-10-09 18:19:39,2019-10-09 18:19:40,"0,702s",PASSED
+"setText(findTestObject(""Object Repository/LoginPage/Page_Laravel/input_Welcome Back_login""), Username)",Firefox 69.0,,,2019-10-09 18:19:40,2019-10-09 18:19:40,"0,102s",PASSED
+"setText(findTestObject(""Object Repository/LoginPage/Page_Laravel/input_Welcome Back_password""), Password)",Firefox 69.0,,,2019-10-09 18:19:40,2019-10-09 18:19:40,"0,079s",PASSED
+"check(findTestObject(""LoginPage/Page_Laravel/label_Remember Me""))",Firefox 69.0,,,2019-10-09 18:19:40,2019-10-09 18:19:40,"0,316s",PASSED
+"uncheck(findTestObject(""LoginPage/Page_Laravel/label_Remember Me""))",Firefox 69.0,,,2019-10-09 18:19:40,2019-10-09 18:19:40,"0,051s",PASSED
+"verifyElementNotChecked(findTestObject(""LoginPage/Page_Laravel/label_Remember Me""), 1)",Firefox 69.0,,,2019-10-09 18:19:40,2019-10-09 18:19:40,"0,047s",PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_Laravel/button_Login""))",Firefox 69.0,,,2019-10-09 18:19:40,2019-10-09 18:19:41,"0,753s",PASSED
+,,,,,,,
+Test Cases/LoginAdmin,Firefox 69.0,,,2019-10-09 18:19:41,2019-10-09 18:19:48,"6,619s",PASSED
+openBrowser(URL),Firefox 69.0,,,2019-10-09 18:19:41,2019-10-09 18:19:46,"4,551s",PASSED
+"setViewPortSize(1920, 1080)",Firefox 69.0,,,2019-10-09 18:19:46,2019-10-09 18:19:46,"0,068s",PASSED
+"click(findTestObject(""StartPage/Page_Laravel/a_Login""))",Firefox 69.0,,,2019-10-09 18:19:46,2019-10-09 18:19:46,"0,702s",PASSED
+"setText(findTestObject(""Object Repository/LoginPage/Page_Laravel/input_Welcome Back_login""), Username)",Firefox 69.0,,,2019-10-09 18:19:46,2019-10-09 18:19:47,"0,095s",PASSED
+"setText(findTestObject(""Object Repository/LoginPage/Page_Laravel/input_Welcome Back_password""), Password)",Firefox 69.0,,,2019-10-09 18:19:47,2019-10-09 18:19:47,"0,070s",PASSED
+"check(findTestObject(""LoginPage/Page_Laravel/label_Remember Me""))",Firefox 69.0,,,2019-10-09 18:19:47,2019-10-09 18:19:47,"0,291s",PASSED
+"uncheck(findTestObject(""LoginPage/Page_Laravel/label_Remember Me""))",Firefox 69.0,,,2019-10-09 18:19:47,2019-10-09 18:19:47,"0,069s",PASSED
+"verifyElementNotChecked(findTestObject(""LoginPage/Page_Laravel/label_Remember Me""), 1)",Firefox 69.0,,,2019-10-09 18:19:47,2019-10-09 18:19:47,"0,048s",PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_Laravel/button_Login""))",Firefox 69.0,,,2019-10-09 18:19:47,2019-10-09 18:19:48,"0,712s",PASSED
+,,,,,,,
+Test Cases/Delete user,Firefox 69.0,,,2019-10-09 18:19:48,2019-10-09 18:19:56,"8,277s",FAILED
+"callTestCase(findTestCase(""LoginAdmin""), [:], STOP_ON_FAILURE)",Firefox 69.0,,,2019-10-09 18:19:48,2019-10-09 18:19:55,"7,481s",PASSED
+"click(findTestObject(""Object Repository/Create User/Page_Laravel/a_Users""), CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-09 18:19:55,2019-10-09 18:19:56,"0,420s",PASSED
+"while (verifyElementPresent(findTestObject(""Object Repository/Create User/Page_Laravel/delete_User_button""), 1) == true)",Firefox 69.0,,,2019-10-09 18:19:56,2019-10-09 18:19:56,"0,201s",PASSED

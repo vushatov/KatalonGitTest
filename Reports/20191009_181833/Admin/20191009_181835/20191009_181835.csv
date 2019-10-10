@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin,,,,2019-10-09 18:19:59,2019-10-09 18:20:06,"7,478s",INCOMPLETE
+,,,,,,,
+Test Cases/StartPage,,,,2019-10-09 18:19:59,2019-10-09 18:20:02,"2,690s",FAILED
+"openBrowser(""http://hcc-asset-server.program-ace.net/"")",,,,2019-10-09 18:19:59,2019-10-09 18:20:02,"2,474s",FAILED
+,,,,,,,
+Test Cases/LoginAdmin,,,,2019-10-09 18:20:02,2019-10-09 18:20:03,"1,576s",FAILED
+openBrowser(URL),,,,2019-10-09 18:20:02,2019-10-09 18:20:03,"1,392s",FAILED
+,,,,,,,
+Test Cases/LoginAdmin,,,,2019-10-09 18:20:03,2019-10-09 18:20:04,"1,118s",FAILED
+openBrowser(URL),,,,2019-10-09 18:20:03,2019-10-09 18:20:04,"1,091s",FAILED
+,,,,,,,
+Test Cases/Delete user,,,,2019-10-09 18:20:04,2019-10-09 18:20:06,"1,823s",FAILED
+"callTestCase(findTestCase(""LoginAdmin""), [:], STOP_ON_FAILURE)",,,,2019-10-09 18:20:05,2019-10-09 18:20:06,"1,707s",FAILED
