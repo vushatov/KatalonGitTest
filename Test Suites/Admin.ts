@@ -30,6 +30,15 @@
          </iterationEntity>
          <testDataId>Data Files/for AdminLogin</testDataId>
       </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>84c5e00a-8bf6-441a-9d07-d514bc5f3c1b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/URL</testDataId>
+      </testDataLink>
       <variableLink>
          <testDataLinkId>96408ed6-f3f9-4d20-b5c9-559733688829</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -41,6 +50,12 @@
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>cd349411-855f-47b2-829f-910b2042e3a7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>84c5e00a-8bf6-441a-9d07-d514bc5f3c1b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>URL</value>
+         <variableId>807c5325-fd18-4210-8942-9241234170af</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

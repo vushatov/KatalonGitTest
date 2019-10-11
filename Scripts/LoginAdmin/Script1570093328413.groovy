@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.URL)
+WebUI.openBrowser(URL)
 
 WebUI.setViewPortSize(1920, 1080)
 
@@ -21,9 +21,7 @@ WebUI.click(findTestObject('StartPage/Page_Laravel/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/LoginPage/Page_Laravel/input_Welcome Back_login'), Username)
 
-
 WebUI.setText(findTestObject('Object Repository/LoginPage/Page_Laravel/input_Welcome Back_password'), Password)
-
 
 WebUI.check(findTestObject('LoginPage/Page_Laravel/label_Remember Me'))
 
@@ -33,4 +31,3 @@ WebUI.verifyElementNotChecked(findTestObject('LoginPage/Page_Laravel/label_Remem
 
 WebUI.click(findTestObject('Object Repository/LoginPage/Page_Laravel/button_Login'))
 
-//WebUI.verifyElementPresent(findTestObject('Object Repository/DashboardPage/Page_Laravel/button_Banned IPs_sidebarToggle'), 0)

@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>Password</name>
    </variable>
+   <variable>
+      <defaultValue>findTestData('URL').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>807c5325-fd18-4210-8942-9241234170af</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
 </TestCaseEntity>
