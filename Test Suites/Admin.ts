@@ -14,13 +14,13 @@
       <guid>0893101c-ddc6-44bf-8b04-c643a0c62659</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StartPage</testCaseId>
+      <testCaseId>Test Cases/HCC/StartPage</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2f01a2f2-6a4e-4001-98cf-b75dd2d2bbe8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LoginAdmin</testCaseId>
+      <testCaseId>Test Cases/HCC/LoginAdmin</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>96408ed6-f3f9-4d20-b5c9-559733688829</id>
@@ -62,6 +62,6 @@
       <guid>63c1fe5e-094f-4720-9cfb-f98c530eae77</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Delete user</testCaseId>
+      <testCaseId>Test Cases/HCC/Delete user</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

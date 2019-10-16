@@ -1292,9 +1292,7 @@
   <message>End Test Suite : Test Suites/Admin</message>
   <nestedLevel>0</nestedLevel>
 </record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2019-10-10T18:18:19</date>
   <millis>1570720699095</millis>
@@ -1394,3 +1392,4 @@
   <message>Reading excel file with source file &amp;apos;C:\\Users\\vladi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\URL.xlsx&amp;apos; and sheet name &amp;apos;\u041B\u0438\u0441\u04421&amp;apos;</message>
   <nestedLevel>0</nestedLevel>
 </record>
+</log>
