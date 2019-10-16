@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/HCC/StartPage","testCaseId":"Test Cases/HCC/StartPage"}
+{"testCaseName":"Test Cases/HCC/LoginAdmin","testCaseId":"Test Cases/HCC/LoginAdmin","bindedValues":{"Username":"\u0027admin\u0027","URL":"\u0027http://hcc-asset-server.program-ace.net/\u0027","Password":"\u0027admin\u0027"}}
+{"testCaseName":"Test Cases/HCC/Delete user","testCaseId":"Test Cases/HCC/Delete user"}

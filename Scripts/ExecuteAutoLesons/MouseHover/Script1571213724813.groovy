@@ -17,7 +17,9 @@ WebUI.openBrowser('http://www.executeautomation.com/demosite/Login.html')
 
 WebUI.setText(findTestObject('Mouse/Page_Execute Automation/input_Login_UserName'), 'admin')
 
-WebUI.setText(findTestObject('Mouse/Page_Execute Automation/input_Login_Password'), 'admin')
+def password = findTestObject('Mouse/Page_Execute Automation/input_Login_Password')
+
+WebUI.setText(password, 'admin')
 
 WebUI.click(findTestObject('Mouse/Page_Execute Automation/input_Login_Login'))
 
@@ -31,3 +33,5 @@ WebUI.verifyElementPresent(findTestObject('Mouse/Page_Execute Automation/h1_Exec
 
 WebUI.click(findTestObject('Mouse/Page_Execute Automation/Page_Execute Automation/input_Selenium IDE_Accept'))
 
+def reject = WebUI.modifyObjectProperty(findTestObject('Mouse/Page_Execute Automation/Page_Execute Automation/input_Selenium IDE_Accept'), 'name', 'equals', 'reject', true)
+WebUI.click(reject)
